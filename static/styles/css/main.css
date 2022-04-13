@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navi {
+    background-color: rgb(65 92 83);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navi ul {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 10rem;
+    margin-bottom: 0;
+}
+
+.navi ul li {
+    margin-right: 2rem;
+}
+
+.navi ul li a {
+    color: whitesmoke;
+}
+
+.navi ul li a:hover {
+    letter-spacing: 2px;
+    transition: .5s;
+    /* color: rgb(25, 25, 88); */
+}
+
+.embod {
+    padding: .5rem 3rem;
+}
+
+.bod {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+}
+
+.head {
+    color: white;
+    padding: 22rem 0;
+}
+
+.head h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.head h4 {
+    font-size: 1.8rem;
+}
+
+.bodsec img {
+    width: 100%;
+}
+
+.bodsec h6 {
+    margin-top: -1rem;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: 25% 30% auto auto;
+    gap: 2rem;
+    color: rgb(223, 217, 217);
+    padding: 1.5rem 3rem;
+    background: rgb(8 13 45);
+}
+
+.footsec h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footsec li {
+    margin-top: 1rem;
+}
+
+.foot p,
+ul {
+    margin-top: .3rem;
+}
+
+.foot a {
+    color: rgb(208, 210, 214);
+}
+
+.foot a:hover {
+    color: rgb(72, 156, 121);
+    transition: .5s;
+}
+
+.copyright {
+    color: whitesmoke;
+    padding: 1.5rem 3rem;
+    background: rgb(65 92 83);
+    ;
+}
+
+.copyright a {
+    margin-left: 1.5rem;
+    color: rgb(207, 221, 233);
+}
+
+.copyright a:hover {
+    letter-spacing: 2px;
+    transition: .5s;
+    color: rgb(8, 15, 49);
+}
+
+@media (min-width: 240px) and (max-width: 550px) {
+    .embod {
+        padding: .5rem 2rem;
+    }
+    .head h2 {
+        font-size: 2rem;
+        padding: 0 1.5rem;
+        font-weight: 500;
+    }
+    .head h4 {
+        font-size: 1.4rem;
+    }
+    .bod {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .foot {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 1rem 2rem;
+    }
+    .foot h3 {
+        font-size: 1.25rem;
+    }
+    .copyright {
+        padding: .5rem 2rem;
+    }
+    .copyright span,
+    a {
+        font-size: .8rem;
+    }
+}

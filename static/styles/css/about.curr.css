@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bout .lex {
+    margin-top: 5rem;
+}
+
+.lex img {
+    height: 600px;
+    align-items: center;
+    width: 100%;
+}
+
+.abt {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: 2rem;
+    margin-top: 3rem;
+}
+
+.bout h6 {
+    margin-top: 1.2rem;
+}
+
+.bout ul {
+    margin-left: 1.5rem;
+}
+
+.bode {
+    margin-top: 1.5rem;
+}
+
+.cad {
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.calm {
+    padding: 0 .6rem;
+    margin-top: 1.2rem;
+}
+
+.calm img {
+    width: 100%;
+}
+
+.bout h3 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: rgb(28, 90, 61);
+}
+
+table {
+    justify-content: center;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .5rem;
+}
+
+@media (min-width: 250px) and (max-width: 550px) {
+    * {
+        font-size: 96%;
+    }
+    .bout h3 {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .bout h4 {
+        font-size: 1.3rem;
+    }
+    .abt {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .cad {
+        margin-top: 2rem;
+        padding: 0;
+    }
+    .card {
+        margin-top: 2rem;
+        box-shadow: 0 1px 1px rgb(99, 95, 95);
+    }
+    table {
+        font-size: .8rem;
+    }
+    td,
+    th {
+        padding: .2rem;
+    }
+}
