@@ -38,15 +38,6 @@ html {
     /* color: rgb(25, 25, 88); */
 }
 
-#apt{
-    display: block;
-    position: absolute;
-}
-
-#abt1 ul li{
-    display: none;
-    position: relative;
-}
 .embod {
     padding: .5rem 3rem;
 }
