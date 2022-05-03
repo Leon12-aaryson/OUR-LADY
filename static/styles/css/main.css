@@ -38,6 +38,34 @@ html {
     /* color: rgb(25, 25, 88); */
 }
 
+/* drop down list for about */
+#apt{
+    color: white;
+    position: relative;
+}
+#apt #abt1
+{
+    /* position: absolute; */
+    display: none;
+}
+
+#apt:hover #abt1{
+    background: rgb(26, 68, 26);
+    display: block;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    position: absolute;
+}
+#abt1 li{
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+#abt1:hover li{
+    letter-spacing: 2px;
+    color: beige;
+    transition: .5s;
+    text-decoration: underline;
+}
 .embod {
     padding: .5rem 3rem;
 }
