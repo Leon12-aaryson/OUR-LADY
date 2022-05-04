@@ -75,13 +75,13 @@ html {
     padding: .5rem 3rem;
 }
 
-.bod {
+/* .bod {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 2rem;
-}
+} */
 
-.head {
+/* .head {
     color: white;
     padding: 22rem 0;
 }
@@ -93,7 +93,7 @@ html {
 
 .head h4 {
     font-size: 1.8rem;
-}
+} */
 
 .bodsec img {
     width: 100%;
