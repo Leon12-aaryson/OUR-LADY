@@ -35,6 +35,7 @@ html {
 .navi ul li a:hover {
     letter-spacing: 2px;
     transition: .5s;
+    text-decoration: none;
     /* color: rgb(25, 25, 88); */
 }
 
@@ -42,6 +43,10 @@ html {
 #apt{
     color: white;
     position: relative;
+}
+#apt:hover{
+    letter-spacing: 2.2px;
+    transition: .5s;
 }
 #apt #abt1
 {
@@ -60,7 +65,7 @@ html {
     margin-bottom: .5rem;
     cursor: pointer;
 }
-#abt1:hover li{
+#abt1 li:hover{
     letter-spacing: 2px;
     color: beige;
     transition: .5s;
