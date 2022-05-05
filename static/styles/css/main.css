@@ -86,11 +86,11 @@
 }
 
 /* body section starts here */
+
 .bod{
-    grid-template-columns: repeat(30%);
-    gap: 2rem;
     display: flex;
 }
+
 /* body section ends here */
 
 .bodsec{
