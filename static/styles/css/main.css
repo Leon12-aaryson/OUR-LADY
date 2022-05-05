@@ -20,12 +20,13 @@ html {
 .navi ul {
     display: flex;
     justify-content: center;
-    padding: 1rem 10rem;
+    padding: 1.2rem 10rem;
     margin-bottom: 0;
 }
 
 .navi ul li {
     margin-right: 2rem;
+    font-size: 1.2rem;
 }
 
 .navi ul li a {
@@ -55,19 +56,21 @@ html {
 }
 
 #apt:hover #abt1{
-    background: rgb(26, 68, 26);
+    background: #22311a;
     display: block;
+    /* border: 2px solid rgb(57, 83, 117) ; */
     padding: 1rem 1rem;
     border-radius: 5px;
+    font-size: 1.2rem;
     position: absolute;
 }
-#abt1 li{
+#abt1 li a{
     margin-bottom: .5rem;
     cursor: pointer;
 }
-#abt1 li:hover{
+#abt1 li:hover a{
     letter-spacing: 2px;
-    color: beige;
+    color: rgb(158, 185, 175) ;
     transition: .5s;
     text-decoration: underline;
 }
