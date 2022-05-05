@@ -46,7 +46,6 @@
 }
 #apt #abt1
 {
-    /* position: absolute; */
     display: none;
 }
 
@@ -75,6 +74,9 @@
 .cad{
     padding-top: 10rem;
     z-index: 1;
+    font-size: 2rem;
+    color: white;
+    margin-left: 2rem;
 }
 
 /* End */
@@ -164,14 +166,7 @@ ul {
     .embod {
         padding: .5rem 2rem;
     }
-    .head h2 {
-        font-size: 2rem;
-        padding: 0 1.5rem;
-        font-weight: 500;
-    }
-    .head h4 {
-        font-size: 1.4rem;
-    }
+    
     .bod {
         display: grid;
         grid-template-columns: auto;
