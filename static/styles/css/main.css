@@ -5,16 +5,11 @@
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
 .navi {
     background-color: rgb(65 92 83);
     width: 100%;
     position: fixed;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .navi ul {
@@ -74,6 +69,15 @@ html {
     transition: .5s;
     text-decoration: underline;
 }
+
+/* detail above background picture */
+/* Start */
+.cad{
+    padding-top: 10rem;
+    z-index: 1;
+}
+
+/* End */
 .embod {
     padding: .5rem 3rem;
 }
