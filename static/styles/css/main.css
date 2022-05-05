@@ -8,7 +8,7 @@
 .navi {
     background-color: rgb(65 92 83);
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     /* z-index: 1; */
 }
 
@@ -52,8 +52,7 @@
 #apt:hover #abt1{
     background: #22311a;
     display: block;
-    /* border: 2px solid rgb(57, 83, 117) ; */
-    padding: 1rem 1rem;
+    padding: 1rem;
     border-radius: 5px;
     font-size: 1.2rem;
     position: absolute;
@@ -73,7 +72,7 @@
 /* Start */
 .cad{
     padding-top: 10rem;
-    z-index: 1;
+    /* z-index: 1; */
     font-size: 2rem;
     color: white;
     margin-left: 2rem;
@@ -81,12 +80,12 @@
 
 /* End */
 .embod {
-    padding: .5rem 3rem;
+    padding: .5rem 5rem;
 }
 
 /* body section starts here */
-.bodsec{
-    grid-template-columns: auto auto auto;
+.bod{
+    grid-template-columns: repeat(30%);
     gap: 2rem;
 }
 /* body section ends here */
