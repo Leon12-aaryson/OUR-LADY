@@ -19,12 +19,12 @@
     margin-bottom: 0;
 }
 
-.navi ul li {
+.navi ul li, #apt p{
     margin-right: 2rem;
     font-size: 1.2rem;
 }
 
-.navi ul li a {
+.navi ul li a{
     color: whitesmoke;
 }
 
