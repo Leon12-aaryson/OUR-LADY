@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 .navi {
     background-color: rgb(65 92 83);
@@ -84,32 +84,27 @@
     padding: .5rem 3rem;
 }
 
-/* .bod {
-    display: grid;
+/* body section starts here */
+.bodsec{
     grid-template-columns: auto auto auto;
-    grid-gap: 2rem;
-} */
-
-/* .head {
-    color: white;
-    padding: 22rem 0;
+    gap: 2rem;
 }
+/* body section ends here */
 
-.head h2 {
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-.head h4 {
-    font-size: 1.8rem;
-} */
-
-.bodsec img {
-    width: 100%;
-}
-
-.bodsec h6 {
+.bodsec h6 a{
     margin-top: -1rem;
+    padding: .5rem 1.5rem;
+    background: none;
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 8px;
+    color: blue;
+}
+.bodsec h6 a:hover{
+    color: white;
+    border: none;
+   letter-spacing: 2px;
+   background: rgb(36, 36, 90);
 }
 
 .foot {
@@ -167,10 +162,6 @@ ul {
         padding: .5rem 2rem;
     }
     
-    .bod {
-        display: grid;
-        grid-template-columns: auto;
-    }
     .foot {
         display: grid;
         grid-template-columns: auto;
