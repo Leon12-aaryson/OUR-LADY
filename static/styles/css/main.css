@@ -3,7 +3,8 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navi {
     background-color: rgb(65 92 83);
@@ -19,7 +20,7 @@
     margin-bottom: 0;
 }
 
-.navi ul li, #apt p{
+.navi ul li{
     margin-right: 2rem;
     font-size: 1.2rem;
 }
@@ -39,6 +40,7 @@
 #apt{
     color: white;
     position: relative;
+    font-size: 1rem;
 }
 #apt:hover{
     letter-spacing: 2.2px;
@@ -87,12 +89,30 @@
 .bod{
     grid-template-columns: repeat(30%);
     gap: 2rem;
+    display: flex;
 }
 /* body section ends here */
 
+.bodsec{
+    border: none;
+    padding: 1rem;
+    background: rgb(230, 236, 230);
+    border-radius: 8px; 
+    width: 30%;
+    box-shadow: 1px 2px 5px grey;
+    margin: 1rem;
+}
+
+.bodsec h3{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(33, 33, 114);
+}
+
 .bodsec h6 a{
     margin-top: -1rem;
-    padding: .5rem 1.5rem;
+    padding: .4rem 1.2rem;
     background: none;
     text-decoration: none;
     border: 2px solid blue;
@@ -102,6 +122,7 @@
 .bodsec h6 a:hover{
     color: white;
     border: none;
+    transition: .3s;
    letter-spacing: 2px;
    background: rgb(36, 36, 90);
 }
@@ -142,7 +163,6 @@ ul {
     color: whitesmoke;
     padding: 1.5rem 3rem;
     background: rgb(65 92 83);
-    ;
 }
 
 .copyright a {
@@ -160,7 +180,16 @@ ul {
     .embod {
         padding: .5rem 2rem;
     }
-    
+    .bodsec{
+        border-radius: 8px; 
+        width: 100%;
+        box-shadow: 1px 2px 5px grey;
+        margin: .3rem;
+    } 
+    #apt p{
+
+        font-size: 1rem;
+    }     
     .foot {
         display: grid;
         grid-template-columns: auto;
