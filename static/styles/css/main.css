@@ -4,6 +4,10 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    transition: .5s;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navi {
     background-color: rgb(65 92 83);
@@ -80,11 +84,26 @@
     justify-content: center;
 }
 
-.text{
-    background: rgba(66, 131, 185, 0.849);
+.text p{
     padding: 1rem;
     border-radius: 5px;
     font-family: cursive;
+}
+.text h4, .text button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+}
+.text button{
+    background: none;
+    border: 1px green solid;
+    border-radius: 5px;
+    padding: .3rem .8rem;
+    color: white;
+}
+.text button:hover{
+    letter-spacing: 2px;
+    background: #1d3112;
+    border: none;
 }
 /* End */
 .embod {
@@ -212,4 +231,9 @@ ul {
     a {
         font-size: .8rem;
     }
+}
+
+/* OTHER PAGES COMMON STYLES */
+.calm a{
+    font-size: 1rem;
 }
