@@ -4,12 +4,11 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navi {
     background-color: rgb(65 92 83);
     width: 100%;
-    /* position: fixed; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 1;
 }
 
@@ -78,13 +77,14 @@
     font-size: 2rem;
     color: white;
     margin-left: 2rem;
+    justify-content: center;
 }
 
 .text{
-    background: rgb(66, 131, 185);
+    background: rgba(66, 131, 185, 0.849);
     padding: 1rem;
-    /* border: 1px solid rgb(66, 131, 185); */
-    /* width: 100px; */
+    border-radius: 5px;
+    font-family: cursive;
 }
 /* End */
 .embod {
