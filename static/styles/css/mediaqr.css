@@ -1,16 +1,6 @@
-@media (min-width: 240px) and (max-width: 550px){
-    .embod{
-        padding: .5rem 2rem;
-    }
+/* @media (min-width: 240px) and (max-width: 550px){
     .bod{
         display: grid;
         grid-template-columns: auto;
     }
-    .foot{
-        display: grid;
-        grid-template-columns: auto;
-    }
-    .foot h3{
-        font-size: 1.25rem;
-    }
-}
+} */
