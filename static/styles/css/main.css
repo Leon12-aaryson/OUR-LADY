@@ -7,7 +7,8 @@
     transition: .5s;
 }
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family:'Poppins';
 }
 .navi {
     background-color: rgb(65 92 83);
@@ -85,7 +86,6 @@ body{
 }
 
 .text p{
-    padding: 1rem;
     border-radius: 5px;
     font-family: cursive;
 }
@@ -153,7 +153,7 @@ body{
 
 .foot {
     display: grid;
-    grid-template-columns: 25% 30% auto auto;
+    grid-template-columns: auto 30% auto;
     gap: 2rem;
     color: rgb(223, 217, 217);
     padding: 1.5rem 3rem;
@@ -220,6 +220,7 @@ ul {
         display: grid;
         grid-template-columns: auto;
         padding: 1rem 2rem;
+        gap: .5rem;
     }
     .foot h3 {
         font-size: 1.25rem;
@@ -227,8 +228,7 @@ ul {
     .copyright {
         padding: .5rem 2rem;
     }
-    .copyright span,
-    a {
+    .copyright span,.copyright a{
         font-size: .8rem;
     }
 }
