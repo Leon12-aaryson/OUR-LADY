@@ -97,8 +97,9 @@ body{
     background: none;
     border: 1px green solid;
     border-radius: 5px;
-    padding: .3rem .8rem;
+    padding: .2rem .6rem;
     color: white;
+    margin-top: 1rem;
 }
 .text button:hover{
     letter-spacing: 2px;
@@ -219,9 +220,6 @@ ul {
 }
 
 @media (min-width: 240px) and (max-width: 550px) {
-    .car {
-        height: 55vh;
-    }
 
     .cad{
         margin-top: 5rem;
