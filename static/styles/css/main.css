@@ -113,7 +113,9 @@ body{
 /* body section starts here */
 
 .bod{
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 1rem;
 }
 
 /* body section ends here */
@@ -123,15 +125,15 @@ body{
     padding: 1rem;
     background: rgb(230, 236, 230);
     border-radius: 8px; 
-    width: 30%;
     box-shadow: 2px 2px 10px grey;
-    margin: 1rem;
+    /* margin: 1rem; */
 }
 
 .bodsec h3{
     font-size: 1.2rem;
     text-decoration: underline;
     color: rgb(33, 33, 114);
+    font-weight: 600;
 }
 
 .bodsec h6 a{
@@ -150,7 +152,23 @@ body{
    letter-spacing: 2px;
    background: rgb(36, 36, 90);
 }
+/* happening now, events */
+/* start */
+.events{
+    padding: 1rem 0;
+}
+.happ{
+    padding: 0.7rem 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
 
+.trend{
+    min-height: 400px;
+    background: black;
+}
+/* end*/
 .foot {
     display: grid;
     grid-template-columns: auto 30% auto;
@@ -201,6 +219,16 @@ ul {
 }
 
 @media (min-width: 240px) and (max-width: 550px) {
+    .car {
+        height: 55vh;
+    }
+
+    .cad{
+        margin-top: 5rem;
+        margin: 1rem .5rem;
+        padding: 1rem;
+        font-size: 1rem;
+    }
     .embod {
         padding: .5rem 2rem;
     }
@@ -210,6 +238,11 @@ ul {
         box-shadow: 1px 2px 5px grey;
         margin: .3rem;
     } 
+
+    .bod{
+        grid-template-columns: 100%;
+        gap: .6rem;
+    }
     .navi ul li a{
         font-size: 1rem;
     }
