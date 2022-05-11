@@ -108,7 +108,7 @@ body{
 }
 /* End */
 .embod {
-    padding: .5rem 5rem;
+    padding: .5rem 3rem;
 }
 
 /* body section starts here */
@@ -145,6 +145,7 @@ body{
     text-decoration: none;
     border: 2px solid blue;
     border-radius: 8px;
+    box-sizing: border-box;
     color: blue;
 }
 .bodsec h6 a:hover{

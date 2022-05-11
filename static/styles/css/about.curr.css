@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.bout .lex {
+.bout.lex {
     margin-top: 5rem;
 }
 
@@ -14,12 +14,11 @@
 }
 
 .abt {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    column-gap: 2rem;
-    margin-top: 3rem;
+    margin: .5rem 1rem;
 }
-
+.bout {
+    margin: 0;
+}
 .bout h6 {
     margin-top: 1.2rem;
 }
@@ -27,11 +26,6 @@
 .bout ul {
     margin-left: 1.5rem;
 }
-
-.bode {
-    margin-top: 1.5rem;
-}
-
 .cad {
     margin-top: 1rem;
     padding: 0 1rem;
@@ -69,6 +63,9 @@ th {
 }
 
 @media (min-width: 250px) and (max-width: 550px) {
+    .abt{
+        margin: .2rem 0;
+    }
     .bout h3 {
         font-size: 1rem;
         margin-top: 1rem;
