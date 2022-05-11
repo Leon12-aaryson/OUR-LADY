@@ -7,7 +7,6 @@
     transition: .5s;
 }
 body{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family:'Poppins';
 }
 .navi {
@@ -37,7 +36,6 @@ body{
     letter-spacing: 2px;
     transition: .5s;
     text-decoration: none;
-    /* color: rgb(25, 25, 88); */
 }
 
 /* drop down list for about */
@@ -242,6 +240,16 @@ ul {
     .bod{
         grid-template-columns: 100%;
         gap: .6rem;
+    }
+    .navi ul {
+        display: flex;
+        justify-content: center;
+        padding: 1.2rem 5rem;
+        margin-bottom: 0;
+    }
+    .navi ul li{
+        margin-right: 1rem;
+        font-size: 1rem;
     }
     .navi ul li a{
         font-size: 1rem;

@@ -73,10 +73,6 @@ th {
     .bout h4 {
         font-size: 1.3rem;
     }
-    .abt {
-        display: grid;
-        grid-template-columns: auto;
-    }
     .cad {
         margin-top: 2rem;
         padding: 0;
